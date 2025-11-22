@@ -12,11 +12,13 @@ export default function Navbar() {
 
       <div className="nav-links">
         <Link to="/">Home</Link>
-        <Link to="/about">Project Page</Link>
 
         {user ? (
           <>
+            &nbsp;
+            &nbsp;
             <span className="user-email">{user.email}</span>
+            <Link to="/about">Dashboard</Link>
             <button className="logout-btn" onClick={logout}>Logout</button>
           </>
         ) : (

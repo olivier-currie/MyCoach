@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #0015ff;
-  --light-bg: #f9f7ff;
-  --dark-text: #222;
+  --primary-color: #4150f2;
+  --light-bg: #303030;
+  --dark-text: #ffffff;
 }
 
 body {
@@ -70,7 +70,7 @@ button {
 }
 
 button:hover {
-  background: #010d90;
+  background: #0035a9;
 }
 
 /* About */
@@ -93,7 +93,7 @@ button:hover {
 }
 
 .card {
-  background: white;
+  background: rgb(0, 0, 0);
   border-radius: 12px;
   padding: 1.5rem;
   width: 260px;

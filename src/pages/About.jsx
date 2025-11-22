@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-// npm install react-markdown
+// npm install react-markdown => to render markdown text
 
 export default function About() {
   const [resolution, setResolution] = useState("");

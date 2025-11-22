@@ -93,7 +93,7 @@ button:hover {
 }
 
 .card {
-  background: white;
+  background: rgb(0, 0, 0);
   border-radius: 12px;
   padding: 1.5rem;
   width: 260px;

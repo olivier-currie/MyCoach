@@ -11,7 +11,6 @@ export default function Home() {
           Kickstart your project using this React template.
           Customize it with your own idea, theme, and creativity!
         </p>
-        <button onClick={() => navigate('/about')}>Go to Project Page</button>
       </section>
     </div>
   )

@@ -1,4 +1,7 @@
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
+
+// npm install react-markdown
 
 export default function About() {
   const [resolution, setResolution] = useState("");
@@ -72,10 +75,18 @@ export default function About() {
         {loading ? "Enhancing..." : "Enhance"}
       </button>
 
-      <p style={{ marginTop: "1rem", whiteSpace: "pre-wrap" }}>
-        <strong>Result:</strong>{" "}
-        {loading ? "Loading..." : result}
-      </p>
+      <div
+        style={{
+          marginTop: "1rem",
+          textAlign: "left",
+          whiteSpace: "pre-wrap",
+        }}
+      >
+        <strong></strong>
+        <ReactMarkdown>
+          {result}
+        </ReactMarkdown>
+      </div>
     </div>
   );
 }

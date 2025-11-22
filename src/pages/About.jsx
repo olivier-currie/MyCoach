@@ -4,8 +4,8 @@ export default function About() {
   const [resolution, setResolution] = useState("");
   const [result, setResult] = useState("");
 
-  async function handleEnhance() { {/* This function sends the resolution to the backend for enhancement */}
-    const response = await fetch("http://localhost:4000/api/generate", {
+  async function handleEnhance() {
+    const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

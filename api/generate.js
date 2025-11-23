@@ -23,7 +23,7 @@ STRICT RULES:
 
 VALIDATION RULE:
 If the user does not provide a meaningful resolution, reply with EXACTLY:
-"{user_message} is not a valid resolution. Please provide a valid new year's resolution."
+"{user_message}" is not a valid resolution. Please provide a valid new year's resolution."
 
 PROCESS (DO NOT SKIP STEPS):
 Step 1 — Analyze:

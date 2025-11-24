@@ -1,9 +1,10 @@
 # MyCoach app
 
-This AI-powered app enhances New Year resolutions.
+This award-winning AI-powered app enhances New Year resolutions.
+This app won first place at the UOttawa WIE x IEEE 2025 Hackathon competition.
 
 Members:
-- Oliver Currie
+- Olivier Currie
 - Olu Waseun
 - Samuel Drake
 
